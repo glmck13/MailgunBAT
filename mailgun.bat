@@ -8,9 +8,9 @@ set MAILGUN_FROM=
 set MAILGUN_TO=
 set MAILGUN_BCC=
 
-set /P MAILGUN_TEMPLATE=Enter template name =
-set /P MAILGUN_SUBJECT=Enter subject =
-set /P MAILGUN_ATTACHMENT=Enter attachment =
+set /P MAILGUN_TEMPLATE=Enter template name = 
+set /P MAILGUN_SUBJECT=Enter subject = 
+set /P MAILGUN_ATTACHMENT=Enter attachment = 
 
 if not defined MAILGUN_ATTACHMENT set MAILGUN_ATTACHMENT=null
 if exist %MAILGUN_ATTACHMENT% (set MAILGUN_ATTACHMENT=-F attachment=@%MAILGUN_ATTACHMENT%) else set MAILGUN_ATTACHMENT= 
