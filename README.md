@@ -1,7 +1,7 @@
 # MailgunBAT
 Windows batch script for Mailgun
 
-The attached Windows batch script sends email through Mailgun making use of the following components:
+The attached scripts (.bat for Windows, .sh for Linux) send email through Mailgun making use of the following components:
 * [Mailgun API](https://documentation.mailgun.com/en/latest/api_reference.html)
 * [Mailgun templates](https://www.mailgun.com/blog/product/mailgun-template-builder)
 * [Mailgun mailing lists](https://documentation.mailgun.com/en/latest/user_manual.html#mailing-lists-1)
